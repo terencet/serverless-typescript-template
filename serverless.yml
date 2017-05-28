@@ -21,6 +21,9 @@ provider:
   name: aws
   runtime: nodejs6.10
 
+plugins:
+  - serverless-webpack
+
 # you can overwrite defaults here
 #  stage: dev
 #  region: us-east-1

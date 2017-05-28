@@ -9,7 +9,11 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "serverless": "^1.14.0"
+    "serverless": "^1.14.0",
+    "serverless-webpack": "^1.0.0-rc.4",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.3",
+    "webpack": "^2.6.1"
   },
   "dependencies": {
     "aws-bluebird": "^1.0.0"
