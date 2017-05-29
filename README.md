@@ -184,7 +184,6 @@ functions:
 #            detail-type:
 #              - "EC2 Instance State-change Notification"
 #            detail:
-#              state:
 #                - pending
 #      - cloudwatchLog: '/aws/lambda/hello'
 
@@ -209,7 +208,7 @@ functions:
 
 Run the following to test
 ```
-sls webpack invoke -f hello -p event.json
+sls webpack invoke -f hello -p src/event.json
 sls webpack serve
 sls deploy
 ```
