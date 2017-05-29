@@ -71,7 +71,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.ts', '.js', '.tsx', '.jsx', '']
+    extensions: ['', '.ts', '.js', '.tsx', '.jsx']
   },
   output: {
     libraryTarget: 'commonjs',
@@ -240,7 +240,7 @@ module.exports = function (config) {
         },
         webpack: {
             module: webpackConfig.module,
-            resolve: webpackConfig.resolve
+            resolve: { extensions: ['.ts', '.js', '.tsx', '.jsx'] }
         },
         reporters: ['progress'],
         port: 9876,
