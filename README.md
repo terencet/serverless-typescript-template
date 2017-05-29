@@ -11,7 +11,7 @@ https://templecoding.com/blog/2016/02/02/how-to-setup-testing-using-typescript-m
 ## Commands to run to set things up
 ```
 npm install -g serverless
-serverless create --template aws-nodejs --path pup-movies-api
+serverless create --template aws-nodejs --path service-name
 npm init
 npm install serverless -save-dev
 npm install aws-bluebird -save
