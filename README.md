@@ -254,11 +254,19 @@ module.exports = function (config) {
 }
 ```
 
+Install tsd and type definitions
+```
+npm install typings -g
+npm install --save-dev @types/mocha
+typings i --save dt~mocha --global 
+typings i --save chai
+```
+
 Create a new test folder and a new file handlers.spec.ts with the following content
 ```
 import { hello } from '../src/handlers';
 import * as chai from 'chai';
-import {} from 'jasmine';
+import {} from 'mocha';
 const expect = chai.expect;
 
 describe('hello function', () => {
@@ -279,14 +287,6 @@ describe('hello function', () => {
         });
     });
 });
-```
-
-Install tsd and type definitions
-```
-npm install typings -g
-npm install --save-dev @types/jasmine
-typings i --save dt~mocha --global 
-typings i --save chai
 ```
 
 In the command prompt, type the following
