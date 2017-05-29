@@ -5,7 +5,7 @@
   "author": "",
   "scripts": {
     "deploy": "bash deployment/deploy.sh",
-    "test": "jasmine"
+    "test": "karma start"
   },
   "license": "ISC",
   "devDependencies": {

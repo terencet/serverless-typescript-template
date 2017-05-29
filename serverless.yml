@@ -59,7 +59,7 @@ plugins:
 
 functions:
   hello:
-    handler: handler.hello
+    handler: handlers.hello
     events:
       - http:
           path: hello

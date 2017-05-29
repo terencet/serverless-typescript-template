@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: './handler.ts',
+    entry: './src/handlers.ts',
     target: 'node',
     module: {
         loaders: [
@@ -14,6 +14,6 @@ module.exports = {
     output: {
         libraryTarget: 'commonjs',
         path: path.join(__dirname, '.webpack'),
-        filename: 'handler.js'
+        filename: 'handlers.js'
     },
 };
