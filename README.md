@@ -3,6 +3,7 @@
 I didn't want to just provide a template without showing the steps in which how the template came about.
 
 References:
+
 http://gregshackles.com/getting-started-with-serverless-and-typescript/
 https://templecoding.com/blog/2016/02/02/how-to-setup-testing-using-typescript-mocha-chai-sinon-karma-and-webpack/
 
