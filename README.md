@@ -5,6 +5,7 @@ I didn't want to just provide a template without showing the steps in which how 
 References:
 
 http://gregshackles.com/getting-started-with-serverless-and-typescript/
+
 https://templecoding.com/blog/2016/02/02/how-to-setup-testing-using-typescript-mocha-chai-sinon-karma-and-webpack/
 
 ## Commands to run to set things up
